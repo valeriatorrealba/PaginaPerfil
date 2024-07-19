@@ -3,10 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Valeria Torrealba">
+    <title>Página de Usuario</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo"><a href="#">Perfil</a></div>
+                <ul class="nav-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Mi Perfil</a></li>
+                    <li><a href="#">Encontar Conexiones</a></li>
+                    <li><a href="#" class="btn">Cerrar Sesión</a></li>
+                </ul>                
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <!-- tarjeta usuario -->
+                <div class="container-tarjetas">
+                    <div class="celeste"></div>        
+                    <div>
+                        <div class="imgRedonda">
+                            <img src="./assets/img/linn.jpg" alt="Imagen de perfil de Linn">
+                        </div>
+                        <h1>Linn Olsen</h1>
+                        <h4>Bergen, Noruega</h4>
+                        <p>Diseñadora de UX/UI | Desarrolladora Frontend | Amante de la naturaleza</p>
+                        <p>Apasionada por crear experiencias digitales hermosas y funcionales. Cuando no está codificando, difruta explorando los fiordos moruegos y capturando la belleza de la naturaleza en fotografías.</p>
+                        
+                        <a href="#" class="icono"><img src="./assets/icons/settings.svg" alt="setting">Edit profile</a>
+                        
+                    </div>
+                </div> 
+                <!-- educacion -->
+                <div class="container-tarjetas education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Coding Dojo - Bootcamp de Desarrollo Full Stack</li>
+                        <li>Dic 2019- Mar 2020</li>
+                        <li>Triple cinturón negro en Python, MERN y C#</li>
+                    </ul>
+                </div>
+            </aside>
+            <aside>
+                <!-- Solicitud de Conexiones -->
+                <div class="container-tarjetas solicitud">
+                    <h2>Solicitudes de Conexión (2)</h2>
+                    <div class="icono-cuadrado">
+                        <img src="./assets/img/kai.jpg" alt="foto de Kai">
+                        <div class="chat-content">
+                            <h3>Kai Schröder</h3>
+                        </div>
+                        <div>
+                            <button class="icon-btn"><img src="./assets/icons/check.svg" alt="check"></button>
+                            <button class="icon-btn"><img src="./assets/icons/cancel.svg" alt="cancel"></button>
+                        </div>                    
+                    </div>
+                    <div class="icono-cuadrado">
+                        <img src="./assets/img/amira.jpg" alt="foto de Amira">
+                        <div class="chat-content">
+                            <h3>Amira El-Masry</h3>
+                        </div>
+                        <div>
+                            <button class="icon-btn"><img src="./assets/icons/check.svg" alt="check"></button>
+                            <button class="icon-btn"><img src="./assets/icons/cancel.svg" alt="cancel"></button>
+                        </div>                    
+                    </div>
+                </div>
+                <!-- tus conexiones -->
+                <div class="container-tarjetas conexiones">
+                    <h2>Tus Conexiones (500+)</h2>
+                    <div class="icono-circulo">
+                        <img src="./assets/img/adrien.jpg" alt="foto de Adrien">
+                        <div class="chat-content">
+                            <h3>Adrien Desplatz</h3>
+                        </div>                   
+                    </div>
+                    <div class="icono-circulo">
+                        <img src="./assets/img/aarav.jpg" alt="foto de Aarav">
+                        <div class="chat-content">
+                            <h3>Aarav Patel</h3>
+                        </div>                   
+                    </div>
+                    <div class="icono-circulo">
+                        <img src="./assets/img/lina.jpg" alt="foto de Lina">
+                        <div class="chat-content">
+                            <h3>Lina Kovacevic</h3>
+                        </div>                   
+                    </div>
+                    <div class="icono-circulo">
+                        <img src="./assets/img/mateo.jpg" alt="foto de Mateo">
+                        <div class="chat-content">
+                            <h3>Mateo Hernández</h3>
+                        </div>                   
+                    </div>
+                    <div class="icono-circulo">
+                        <img src="./assets/img/yuna.jpg" alt="foto de Yuna">
+                        <div class="chat-content">
+                            <h3>Yuna Kim</h3>
+                        </div>                   
+                    </div>
+                    <div class="icono-circulo">
+                        <img src="./assets/img/liam.jpg" alt="foto de Liam">
+                        <div class="chat-content">
+                            <h3>Liam O'Brien</h3>
+                        </div>                   
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
     
 </body>
 </html>
