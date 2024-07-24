@@ -122,7 +122,7 @@ p{
 }
 
 /* Bloque Derecha */
-main{
+.cajaPrincipal{
     display: flex;
 }
 /* Tarjeta Educación */
