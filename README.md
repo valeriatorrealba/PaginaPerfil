@@ -21,7 +21,7 @@ El proyecto se compone de las siguientes secciones:
 
 - **Header**: Contiene la barra de navegación con enlaces a Inicio, Mi Perfil, Encontrar Conexiones y Cerrar Sesión.
 - **Main**: Incluye dos secciones principales:
-  - **Aside Izquierdo**: Información del usuario y educación.
+  - **Section Izquierdo**: Información del usuario y educación.
   - **Aside Derecho**: Solicitudes de conexión y conexiones del usuario.
  
 ## Tecnologías Utilizadas
