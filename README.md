@@ -1,6 +1,7 @@
 # Página de Perfil de Usuario
 
-Esta es una página de perfil de usuario diseñada para mostrar la información personal, conexiones y solicitudes de conexión de un usuario. La página está estructurada con HTML y estilizada con CSS.
+Esta es una página de perfil de usuario diseñada para mostrar la información personal, conexiones y solicitudes de conexión de un usuario. La página está estructurada con HTML y 
+estilizada con CSS.
 
 ## Vista del Modelo
 
@@ -27,3 +28,7 @@ El proyecto se compone de las siguientes secciones:
 ## Tecnologías Utilizadas
 - HTML5: Para la estructura del contenido.
 - CSS3: Para el diseño y estilizado de la página.
+
+## Autor
+
+Este proyecto fue desarrollado por **Valeria Torrealba**.
